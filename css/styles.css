@@ -1,0 +1,197 @@
+/******************************************TAG SELECTORS****************************************/
+
+body{
+  margin: 0;
+  color: #40514E;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  background-color:  #e4f9f5;
+}
+h1{
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 6.25rem;
+  color: #66BFBF;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+p{
+  line-height: 2; /*for more spacing betweewn the line as usual*/
+}
+a{
+  color: #11999E;
+}
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 5%;
+  margin: 100px auto;
+}
+
+/******************************************CLASS SELECTORS****************************************/
+
+.top{
+  background-color: powderblue;
+  position:relative;
+  padding-top: 30px;
+}
+.nav-link{
+  font-size: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+.middle
+{
+  margin: 50px auto 50px auto;
+}
+.bottom
+{
+  margin: 50px auto 0px auto;
+  padding: 30px;
+  background-color: #66BFBF;
+}
+.pro{
+  text-decoration: underline;
+}
+.top-cloud{
+  position: absolute;
+  right: 15%;
+  top: 120px;
+}
+.bottom-cloud{
+  position: absolute;
+  left: 15%;
+  bottom: 300px;
+}
+.row-padding{
+  padding: 10px 30px;
+}
+.my-skills{
+  margin: 30px auto;
+}
+.skillc-image{
+  height: 200px;
+  width:200px;
+  border-radius: 100%;
+  /* float: left; */
+  margin-right: 30px;
+}
+.skillimg-align{
+  text-align: right;
+  padding-right: 30px;
+}
+.skill-rate{
+  text-align: left;
+  padding-left: 20px;
+}
+.circle{
+  margin: 40px 10px;
+}
+.row{
+  padding: 20px;
+}
+/* .skillg-image{
+  height: 200px;
+  width:200px;
+  border-radius: 100%;
+  float: right;
+  margin-left: 30px;
+} */
+.icon-image{
+  margin: 20px;
+}
+.icon-image:hover{
+  background-color: grey;
+}
+.font-weight{
+  font-weight: normal;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+  position: relative;
+}
+.profile-img{
+  border-radius: 100%;
+  width: 20%;
+  margin: 30px;
+}
+.profile{
+  margin: 50px auto 25px auto;
+}
+.intro{
+  width:50%;
+  margin: 10px auto 10px; /*top and bottom is 10px left n right is setb to auto n therefore it gets centered*/
+}
+.cont-para{
+  width:40%;
+  margin: 10px auto 40px;
+}
+.copy-right{
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+/*.skills{
+  margin: 25px auto 25px auto;
+  padding: 50px;
+}*/
+
+
+/* evrything down there is for the button */
+.btn {
+	-moz-box-shadow:inset 0px -3px 7px 0px  #11CDD4;
+	-webkit-box-shadow:inset 0px -3px 7px 0px  #11CDD4;
+	box-shadow:inset 0px -3px 7px 0px  #11CDD4;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05,  #11CDD4), color-stop(1, #11999E) );
+	background:-moz-linear-gradient( center top,  #11CDD4 5%, #11999E 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=' #11CDD4', endColorstr='#11999E');
+	background-color: #11CDD4;
+	-webkit-border-top-left-radius:9px;
+	-moz-border-radius-topleft:9px;
+	border-top-left-radius:9px;
+	-webkit-border-top-right-radius:9px;
+	-moz-border-radius-topright:9px;
+	border-top-right-radius:9px;
+	-webkit-border-bottom-right-radius:9px;
+	-moz-border-radius-bottomright:9px;
+	border-bottom-right-radius:9px;
+	-webkit-border-bottom-left-radius:9px;
+	-moz-border-radius-bottomleft:9px;
+	border-bottom-left-radius:9px;
+  text-indent:0;
+	border:1px solid #0b0e07;
+	display:inline-block;
+	color:#ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+  height:50px;
+	line-height:50px;
+  width:140px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:0px 1px 0px #263666;
+}
+.btn:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #0688fa), color-stop(1, #2dabf9) );
+	background:-moz-linear-gradient( center top, #0688fa 5%, #2dabf9 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#0688fa', endColorstr='#2dabf9');
+	background-color:#0688fa;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
